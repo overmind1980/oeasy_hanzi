@@ -1,0 +1,237 @@
+
+    <link href="https://hanziyuan.net/css/bootstrap.min.css" rel="stylesheet"><link href="https://hanziyuan.net/css/bootstrap-theme.min.css" rel="stylesheet"><style>@-ms-viewport{width:device-width}@-o-viewport{width:device-width}@viewport{width:device-width}@keyframes ladda-spinner-line-fade{0%,to{opacity:.22}1%{opacity:1}}.ladda-button{position:relative}.ladda-button .ladda-spinner{position:absolute;z-index:2;display:inline-block;width:32px;top:50%;margin-top:0;opacity:0;pointer-events:none}.ladda-button .ladda-label{position:relative;z-index:3}.ladda-button .ladda-progress{position:absolute;width:0;height:100%;left:0;top:0;background:rgba(0,0,0,.2);display:none;transition:all .1s linear!important}.ladda-button[data-loading] .ladda-progress{display:block}.ladda-button,.ladda-button .ladda-label,.ladda-button .ladda-spinner{transition:all .3s cubic-bezier(.175,.885,.32,1.275)!important}.ladda-button[data-style=zoom-in],.ladda-button[data-style=zoom-in] .ladda-label,.ladda-button[data-style=zoom-in] .ladda-spinner,.ladda-button[data-style=zoom-out],.ladda-button[data-style=zoom-out] .ladda-label,.ladda-button[data-style=zoom-out] .ladda-spinner{transition:all .3s ease!important}.ladda-button[data-style=expand-right] .ladda-spinner{right:-6px}.ladda-button[data-style=expand-right][data-size=s] .ladda-spinner,.ladda-button[data-style=expand-right][data-size=xs] .ladda-spinner{right:-12px}.ladda-button[data-style=expand-right][data-loading]{padding-right:56px}.ladda-button[data-style=expand-right][data-loading] .ladda-spinner{opacity:1}.ladda-button[data-style=expand-right][data-loading][data-size=s],.ladda-button[data-style=expand-right][data-loading][data-size=xs]{padding-right:40px}.ladda-button[data-style=expand-left] .ladda-spinner{left:26px}.ladda-button[data-style=expand-left][data-size=s] .ladda-spinner,.ladda-button[data-style=expand-left][data-size=xs] .ladda-spinner{left:4px}.ladda-button[data-style=expand-left][data-loading]{padding-left:56px}.ladda-button[data-style=expand-left][data-loading] .ladda-spinner{opacity:1}.ladda-button[data-style=expand-left][data-loading][data-size=s],.ladda-button[data-style=expand-left][data-loading][data-size=xs]{padding-left:40px}.ladda-button[data-style=expand-up]{overflow:hidden}.ladda-button[data-style=expand-up] .ladda-spinner{top:-32px;left:50%;margin-left:0}.ladda-button[data-style=expand-up][data-loading]{padding-top:54px}.ladda-button[data-style=expand-up][data-loading] .ladda-spinner{opacity:1;top:26px;margin-top:0}.ladda-button[data-style=expand-up][data-loading][data-size=s],.ladda-button[data-style=expand-up][data-loading][data-size=xs]{padding-top:32px}.ladda-button[data-style=expand-up][data-loading][data-size=s] .ladda-spinner,.ladda-button[data-style=expand-up][data-loading][data-size=xs] .ladda-spinner{top:4px}.ladda-button[data-style=expand-down]{overflow:hidden}.ladda-button[data-style=expand-down] .ladda-spinner{top:62px;left:50%;margin-left:0}.ladda-button[data-style=expand-down][data-size=s] .ladda-spinner,.ladda-button[data-style=expand-down][data-size=xs] .ladda-spinner{top:40px}.ladda-button[data-style=expand-down][data-loading]{padding-bottom:54px}.ladda-button[data-style=expand-down][data-loading] .ladda-spinner{opacity:1}.ladda-button[data-style=expand-down][data-loading][data-size=s],.ladda-button[data-style=expand-down][data-loading][data-size=xs]{padding-bottom:32px}.ladda-button[data-style=slide-left]{overflow:hidden}.ladda-button[data-style=slide-left] .ladda-label{position:relative}.ladda-button[data-style=slide-left] .ladda-spinner{left:100%;margin-left:0}.ladda-button[data-style=slide-left][data-loading] .ladda-label{opacity:0;left:-100%}.ladda-button[data-style=slide-left][data-loading] .ladda-spinner{opacity:1;left:50%}.ladda-button[data-style=slide-right]{overflow:hidden}.ladda-button[data-style=slide-right] .ladda-label{position:relative}.ladda-button[data-style=slide-right] .ladda-spinner{right:100%;margin-left:0;left:16px}[dir=rtl] .ladda-button[data-style=slide-right] .ladda-spinner{right:auto}.ladda-button[data-style=slide-right][data-loading] .ladda-label{opacity:0;left:100%}.ladda-button[data-style=slide-right][data-loading] .ladda-spinner{opacity:1;left:50%}.ladda-button[data-style=slide-up]{overflow:hidden}.ladda-button[data-style=slide-up] .ladda-label{position:relative}.ladda-button[data-style=slide-up] .ladda-spinner{left:50%;margin-left:0;margin-top:1em}.ladda-button[data-style=slide-up][data-loading] .ladda-label{opacity:0;top:-1em}.ladda-button[data-style=slide-up][data-loading] .ladda-spinner{opacity:1;margin-top:0}.ladda-button[data-style=slide-down]{overflow:hidden}.ladda-button[data-style=slide-down] .ladda-label{position:relative}.ladda-button[data-style=slide-down] .ladda-spinner{left:50%;margin-left:0;margin-top:-2em}.ladda-button[data-style=slide-down][data-loading] .ladda-label{opacity:0;top:1em}.ladda-button[data-style=slide-down][data-loading] .ladda-spinner{opacity:1;margin-top:0}.ladda-button[data-style=zoom-out]{overflow:hidden}.ladda-button[data-style=zoom-out] .ladda-spinner{left:50%;margin-left:32px;transform:scale(2.5)}.ladda-button[data-style=zoom-out] .ladda-label{position:relative;display:inline-block}.ladda-button[data-style=zoom-out][data-loading] .ladda-label{opacity:0;transform:scale(.5)}.ladda-button[data-style=zoom-out][data-loading] .ladda-spinner{opacity:1;margin-left:0;transform:none}.ladda-button[data-style=zoom-in]{overflow:hidden}.ladda-button[data-style=zoom-in] .ladda-spinner{left:50%;margin-left:-16px;transform:scale(.2)}.ladda-button[data-style=zoom-in] .ladda-label{position:relative;display:inline-block}.ladda-button[data-style=zoom-in][data-loading] .ladda-label{opacity:0;transform:scale(2.2)}.ladda-button[data-style=zoom-in][data-loading] .ladda-spinner{opacity:1;margin-left:0;transform:none}.ladda-button[data-style=contract]{overflow:hidden;width:100px}.ladda-button[data-style=contract] .ladda-spinner{left:50%;margin-left:0}.ladda-button[data-style=contract][data-loading]{border-radius:50%;width:52px}.ladda-button[data-style=contract][data-loading] .ladda-label{opacity:0}.ladda-button[data-style=contract][data-loading] .ladda-spinner{opacity:1}.ladda-button[data-style=contract-overlay]{overflow:hidden;width:100px;box-shadow:0 0 0 2000px transparent}.ladda-button[data-style=contract-overlay] .ladda-spinner{left:50%;margin-left:0}.ladda-button[data-style=contract-overlay][data-loading]{border-radius:50%;width:52px;box-shadow:0 0 0 2000px rgba(0,0,0,.8)}.ladda-button[data-style=contract-overlay][data-loading] .ladda-label{opacity:0}.ladda-button[data-style=contract-overlay][data-loading] .ladda-spinner{opacity:1}[dir=rtl] .ladda-spinner>div{left:25%!important}.navbar-collapse{overflow:hidden}body{position:relative;padding-top:50px}.row-eq-height{overflow:hidden}.row-eq-height [class*=col-]{margin-bottom:-99999px;padding-bottom:99999px}.pre-inline{white-space:pre-line}.m-0{margin:0}.p-0{padding:0}.mx-0{margin-left:0;margin-right:0}.my-1{margin-top:15px;margin-bottom:15px}.px-0{padding-right:0;padding-left:0}.p-1{padding:15px}.px-1{padding-right:15px;padding-left:15px}.py-1{padding-bottom:15px}.pt-1,.py-1{padding-top:15px}.pb-1{padding-bottom:15px}.bg-purple{background-color:#563d7c}.bg-black{background-color:#000}.border-purple{border-color:#563d7c}.border-top{border-top:1px solid}.text-black{color:#000}.text-lg{font-size:50px}.text-danger-color{color:#f44}a.text-danger-color,a.text-danger-color:visited{color:#f44!important}a.text-danger-color:active,a.text-danger-color:hover{color:#ff9c9c!important}.text-white{color:#eee}a.text-white,a.text-white:active,a.text-white:hover,a.text-white:visited{color:#fff!important}@media (min-width:768px) and (max-width:991px){.navbar-collapse.collapse{display:none!important}.navbar-collapse.collapse.in,.navbar-header .collapse,.navbar-toggle{display:block!important}.navbar-header{float:none}}.etymology-news .media-left a{width:50px;height:64px;display:block;font-size:40px;color:#e1bee7}.etymology-videos .media-left a{width:114px;height:64px;display:block;background-size:cover;background-repeat:no-repeat;background-position:50% 50%}.etymology-brand{padding-left:0;padding-right:0}@media (min-width:768px){.etymology-brand{padding-left:15px;padding-right:15px}}@media (max-width:351px){.etymology-nav-icon{display:none}}.navbar-fixed-top .navbar-collapse{max-height:none}.etymology-search button{margin-bottom:10px}.etymology-stat div{padding:5px}.etymology-stat h3{margin-top:10px}.etymology-alert a{margin:5px 0}.etymology-result ul{margin-top:15px}.etymology-result ul li div{background-color:#fff;width:105px;height:70px;background-size:60px 60px;background-position:50% 50%;background-repeat:no-repeat;color:transparent;cursor:pointer}.etymology-result ul li button{margin-top:5px;margin-bottom:15px;width:105px;font-weight:700}.etymology-research a{font-weight:700}.etymology-news .media-body{color:#ccc}.etymology-news .media-heading{color:#fff}.modal-dialog{width:auto;margin-left:15px;margin-right:15px}.modal-content,.modal-dialog{height:95%}.modal-content{background-size:contain;background-repeat:no-repeat;background-position:50%}.modal-body,.modal-footer,.modal-header{border:0 none}.modal-body{height:calc(100% - 120px)}</style>
+    
+
+
+
+<div class="etymology-nav" id="&#x86C7;">
+        <div class="alert alert-success m-0 etymology-alert" role="alert">
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> <strong>&#x86C7;</strong>: Found <strong>4</strong> etymologies and <strong>3</strong> characters in <strong>0.003</strong> seconds.
+                    <a href="#E05497" class="btn btn-success btn-xs ladda-button">E05497 &#x86C7;86C7 &#x2192; &#x86C7;86C7</a>
+                    <a href="#E05496" class="btn btn-success btn-xs ladda-button">E05496 &#x2726E;2726E &#x2192; &#x86C7;86C7</a>
+                    <a href="#E05498" class="btn btn-success btn-xs ladda-button">E05498 &#x25740;25740 &#x2192; &#x86C7;86C7</a>
+                    <a href="#E07287" class="btn btn-success btn-xs ladda-button">E07287 &#x8675;8675 &#x2192; &#x86C7;86C7</a>
+        </div>
+        <div class="row mx-0 bg-info row-eq-height border-top border-purple" id="E05497">
+            <div class="col-md-3  col-sm-4 p-0">
+                <div class="p-1">
+                    <p><span class="label label-success">E05497 &#x86C7;86C7 &#x2192; &#x86C7;86C7</span></p>
+                    <p><b>Traditional in your browser 繁体字的浏览器显示:</b> <span class="text-lg">&#x86C7;</span></p>
+                    <p><b>Traditional in Unicode standard 繁体字的Unicode标准:</b> <a href="https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=86C7" target="_blank">U+86C7</a> <img src="https://www.unicode.org/cgi-bin/refglyph?24-86C7" /></p>
+                    <p>
+                        <b>Older traditional characters 旧繁体字/异体字:</b>
+Not exist                    </p>
+                    <p>
+                        <b>Simplified in your browser 简体字的浏览器显示:</b>
+                            <span class="text-lg">&#x86C7;</span>
+                    </p>
+                    <p>
+                        <b>Simplified in Unicode standard 简体字的Unicode标准:</b>
+                            <a href="https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=86C7" target="_blank">U+86C7</a>
+                            <img src="https://www.unicode.org/cgi-bin/refglyph?24-86C7" />
+                    </p>
+                    <p><b>Main pronunciation 主要发音:</b> sh&#xE9;</p>
+                    <p><b>Other pronunciations 其它发音:</b> sh&#xE9;,y&#xED;,tu&#xF3;,ch&#xED;</p>
+                    <p><b>Original meaning 本义:</b> Meaning snake.</p>
+                    <p><b>English senses 英语理解:</b> snake</p>
+                    <p><b>Usage example 用法举例:</b> &#x86C7;&#x7BA1; sh&#xE9; gu&#x1CE;n (worm)</p>
+                    <p><b>Importance by frequency 常用频率:</b> 1760</p>
+                    <p><b>Shuowen 说文解字:</b> &#x5B83;&#x6216;&#x5F9E;&#x866B;</p>
+                    <p class="pre-inline"><b>Character decomposition 字形分解 <a href="https://dixin.github.io/Etymology/decomposition-of-chinese-character" target="_blank" title="Help: Decomposition of Chinese character">[?]</a>:</b> <br />Compound &#x86C7;&#xD;&#xA;from insect &#x866B; ch&#xF3;ng and &#xD;&#xA;snake &#x5B83; t&#x101;&#xD;&#xA;(variants &#x86C7;&#x8675;&#x2726E;&#x25740;)&#xD;&#xA;C519 &#x86C7;&lt;&#x8675;&gt; simp &#x86C7;.</p>
+                    <p class="pre-inline"><b>Decomposition notes 字形分解说明 <a href="https://dixin.github.io/Etymology/decomposition-of-chinese-character" target="_blank" title="Help: Decomposition of Chinese character">[?]</a>:</b> <br />Not applicable.</p>
+                    <p><b>Simplification rule 简化规则 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> Not applicable.</p>
+                    <p class="pre-inline"><b>Simplification rule explained 简化规则说明 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> <br />Not applicable.</p>
+                    <p><b>Variant rule 异体规则 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank">[?]</a>:</b> C519 &#x86C7;&lt;&#x8675;&gt;</p>
+                    <p class="pre-inline"><b>Variant rule clarification 异体规则说明 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> <br />&#x86C7; (snake) TW&#xD;&#xA;&#x8675; &lt;snake&gt;</p>
+                    <p><b>Applied rules 应用规则 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> Not applicable.</p>
+                    <p><b>New font rule 新字形规则 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> Not applicable.</p>
+                    <a class="btn btn-warning btn-xs ladda-button" data-style="zoom-in" href="https://github.com/Dixin/Etymology/issues/new" target="_blank" title="Help: Simplification of Chinese character"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Report issue 报错/留言</a>
+                </div>
+            </div>
+            <div class="col-md-9 col-sm-8 etymology-result bg-primary p-1" id="etymologyCharacters">
+                <h3><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Oracle characters 甲骨文 (0)</h3>
+                    <p>There is no known oracle characters found. 没有已知的甲骨文.</p>
+                <hr />
+                <h3><span class="glyphicon glyphicon-modal-window" aria-hidden="true"></span> Bronze characters 金文 (0)</h3>
+                    <p>There is no known bronze characters found. 没有已知的金文.</p>
+                <hr />
+                <h3><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Seal characters 说文解字的篆字 (1)</h3>
+                    <ul class="list-inline list-unstyled">
+                            <li class="text-center">
+                                <div id="etymologyS10098" data-toggle="modal" data-target="#etymologyModal">S10098</div>
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#etymologyModal"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> S10098</button>
+                            </li>
+                    </ul>
+                <hr />
+                <h3><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Liushutong characters 六书通的字 (2)</h3>
+                    <ul class="list-inline list-unstyled">
+                            <li class="text-center">
+                                <div id="etymologyL08968" data-toggle="modal" data-target="#etymologyModal">L08968</div>
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#etymologyModal"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> L08968</button>
+                            </li>
+                            <li class="text-center">
+                                <div id="etymologyL08969" data-toggle="modal" data-target="#etymologyModal">L08969</div>
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#etymologyModal"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> L08969</button>
+                            </li>
+                    </ul>
+            </div>
+            <style type="text/css">
+#S10098, #etymologyS10098 { background-image: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKIHdpZHRoPSI3MS4wMDAwMDBwdCIgaGVpZ2h0PSIxMjIuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCA3MS4wMDAwMDAgMTIyLjAwMDAwMCIKIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiPgo8bWV0YWRhdGE+CkNyZWF0ZWQgYnkgcG90cmFjZSAxLjE1LCB3cml0dGVuIGJ5IFBldGVyIFNlbGluZ2VyIDIwMDEtMjAxNwo8L21ldGFkYXRhPgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwxMjIuMDAwMDAwKSBzY2FsZSgwLjEwMDAwMCwtMC4xMDAwMDApIgpmaWxsPSIjMDAwMDAwIiBzdHJva2U9Im5vbmUiPgo8cGF0aCBkPSJNMjQ3IDExMjMgYy00IC0zIC03IC0yNSAtNyAtNDkgMCAtNDggLTkgLTUzIC05NSAtNTUgLTEwMyAtMyAtMTQ3Ci0yOCAtMTExIC02NCAxOCAtMTggMzkgLTE4IDE2NCAxIDQyIDcgNDIgNyA0MiAtMzMgMCAtNTMgLTYgLTU2IC0xNjMgLTgyIC01NgotOSAtNzEgLTIxIC02MiAtNTEgNiAtMjAgMTEgLTIxIDc2IC0xNCA2NCA2IDY5IDUgNjkgLTEzIDAgLTEyIC0xNCAtMjcgLTM2Ci0zOSAtMzQgLTE4IC00NSAtMzMgLTczIC05NCAtMTQgLTMyIC0xOSAtMTI4IC02IC0xMzEgMTcgLTQgNDYgNDcgNTIgODkgNiA0NAozOSA5MCA1NSA3NCA1IC01IDggLTQ3IDYgLTkzIC0zIC04NCAtMyAtODQgLTczIC04OSAtNjQgLTUgLTcwIC03IC03MyAtMjkgLTUKLTMwIDE1IC00MyA1MiAtMzUgMTkgNCAzMSAxIDM3IC03IDEwIC0xNyAzIC0xMjEgLTE4IC0yNDQgLTIwIC0xMjYgLTIxIC0xNDkKLTMgLTE1MiAyNyAtNSAzOCAxMSA0MyA2MiAzIDI4IDExIDg4IDE3IDEzNSA2IDQ3IDE1IDExMiAxOCAxNDUgNSA0MyAxMSA2MQoyMyA2MyAxMyAyIDE4IC0xNCAyOCAtOTAgMjAgLTE1OCA0OSAtMzAwIDYzIC0zMDkgNDQgLTI5IDUzIDE2IDI1IDEyNiAtMjMgOTIKLTM3IDE3NyAtMzcgMjI4IDAgNDYgMCA0NiA0MyA0OSAzOCAzIDQyIDUgMzggMjggLTQgMzUgLTE5IDQxIC03MyAzNCAtNDggLTYKLTQ4IC02IC00OCA4NSAwIDUwIDQgOTEgOSA5MSAxNyAwIDQ5IC01NSA2MiAtMTA0IDEyIC00OSAzNCAtNjkgNTAgLTQ1IDMzIDUyCi0yNCAxNzggLTk5IDIxOCAtMzAgMTYgLTMwIDU5IDEgNzAgMTIgNSAzMSAxOCA0MiAzMCAxNyAyMCAxOSAzNiAxNyAxNDIgLTEKNjYgLTYgMTI4IC0xMiAxMzkgLTExIDIwIC0zMSAyNiAtNDMgMTN6Ii8+CjxwYXRoIGQ9Ik00MTYgMTA4NiBjLTMwIC0xNCAtNTYgLTYxIC01NiAtMTAxIDAgLTE0IDIwIC00NSA0OCAtNzcgNjMgLTY4IDcyCi04NyA3MiAtMTQyIDAgLTM5IC0zIC00NiAtMjAgLTQ2IC0yNiAwIC00NiAzNCAtNTUgOTMgLTUgMzggLTEwIDQ3IC0yNiA0NwotMTcgMCAtMTkgLTcgLTE5IC02MCAwIC02NyAxNCAtMTA3IDQyIC0xMTUgMTAgLTQgMTggLTEwIDE4IC0xNSAwIC01IDEyIC0xMAoyOCAtMTIgMjAgLTIgMjggLTkgMzAgLTI4IDIgLTE0IDggLTMwIDEyIC0zNSA1IC02IDUgLTE3IC0xIC0yNSAtNiAtOSAtOQotMTAzIC03IC0yMjkgMiAtMjI5IC0zIC0yNTIgLTQyIC0xODkgLTE4IDI5IC0yMCA1MCAtMjAgMTg5IDAgMTMwIC0zIDE1OSAtMTYKMTcwIC0yMCAxNiAtMzMgLTIgLTM1IC00NiAwIC0xNiAtMyAtNzUgLTUgLTEzMCAtNiAtMTEzIDkgLTIxNiAzNSAtMjM5IDQ2Ci00MiAxMjAgLTU1IDIzNCAtNDIgNjYgNyA2NyA4IDY3IDM3IDAgMjkgMCAyOSAtODEgMjkgLTgxIDAgLTgxIDAgLTc0IDM4IDQKMjAgMTQgNDEgMjMgNDYgOCA1IDMyIDI0IDUxIDQyIDM1IDMyIDM2IDM0IDM2IDEwNiAtMSA0MCAtMyA4OSAtNyAxMDggLTMgMTkKLTYgNDEgLTcgNDggMCA2IC0xMyAxMiAtMjcgMTIgLTI3IDAgLTI3IDAgLTIwIC03OSA5IC05NyAtNSAtMTYxIC0zNCAtMTYxCi0xOSAwIC0yMCA4IC0yMiAxMDggLTEgNTkgLTEgMTIwIC0xIDEzNyAxIDE2IC00IDMzIC0xMCAzNyAtOSA2IC05IDEyIDEgMjggNgoxMSAxMiAyNyAxMiAzNSAwIDggMTggMjIgNDAgMzEgNTggMjMgODAgNjUgODAgMTUyIDAgNTcgLTMgNzEgLTE3IDc2IC0yNiAxMAotNDMgLTIxIC00MyAtNzkgMCAtMzggLTUgLTU2IC0xOCAtNjggLTI5IC0yNiAtMzkgLTIwIC00NiAyNiAtMTcgMTE2IC0xNyAxMTUKLTY3IDE2MiAtNzYgNzEgLTY0IDEwNCAzNCA5NyA1NCAtNCA1NyAtNSA1NyAtMzEgMCAtMTUgLTkgLTMzIC0yMCAtNDEgLTIxCi0xNSAtMjcgLTU1IC05IC02NSAxNSAtMTAgNjMgMTIgNzcgMzYgMzEgNDkgMTYgMTQ4IC0yNCAxNjMgLTM1IDE0IC0xNDAgMTUKLTE2OCAyeiIvPgo8L2c+Cjwvc3ZnPgo=') } #L08968, #etymologyL08968 { background-image: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKIHdpZHRoPSI2My4wMDAwMDBwdCIgaGVpZ2h0PSI4MC4wMDAwMDBwdCIgdmlld0JveD0iMCAwIDYzLjAwMDAwMCA4MC4wMDAwMDAiCiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ij4KPG1ldGFkYXRhPgpDcmVhdGVkIGJ5IHBvdHJhY2UgMS4xNSwgd3JpdHRlbiBieSBQZXRlciBTZWxpbmdlciAyMDAxLTIwMTcKPC9tZXRhZGF0YT4KPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsODAuMDAwMDAwKSBzY2FsZSgwLjEwMDAwMCwtMC4xMDAwMDApIgpmaWxsPSIjMDAwMDAwIiBzdHJva2U9Im5vbmUiPgo8cGF0aCBkPSJNMTkwIDcwOCBjMCAtNyAxOCAtMjkgNDAgLTQ5IDMwIC0yNyA0MCAtNDQgNDAgLTY2IDAgLTI4IC0zIC0zMSAtNDcKLTM2IC01OSAtNyAtMTMxIC0zOCAtMTYxIC03MCAtMjggLTMwIC0zOCAtMTAwIC0yMCAtMTUxIDE3IC01MCA1NiAtNzkgMTEwCi04MiA0MiAtMiA0MiAtMiA1NSAtNjkgMTQgLTc5IDM0IC0xMDQgMTA1IC0xMzUgOTcgLTQyIDE0NSAtNSA1MSA0MCAtNzggMzgKLTg0IDQ2IC00NyA3NSAyMCAxNiAzNiA0MCA0NCA3MCAxMiA0NSAxMyA0NSA1MCAzOSA0NiAtOCA5NyAxNyAxMTAgNTIgNDEgMTA3Ci0zNCAyMjcgLTE0OCAyNDEgLTQ2IDUgLTUyIDggLTQ2IDI1IDkgMzAgLTE0IDc0IC01NSAxMDIgLTM5IDI3IC04MSAzNCAtODEKMTR6IG0xOTUgLTE4OCBjMzcgLTggODUgLTQ4IDg1IC03MCAwIC01IC0xNyAtMTIgLTM3IC0xNSAtNzQgLTEyIC04MSAtMTUgLTkxCi00MiAtNiAtMTYgLTEzIC01NyAtMTYgLTkzIC00IC0zOSAtMTMgLTc1IC0yNCAtODkgLTM5IC01MyAtNTEgLTM2IC01OSA4NCAtNAo1NyAtMTIgODggLTI2IDEwOSAtMTggMjYgLTI0IDI4IC02OCAyNCAtNDUgLTUgLTQ5IC0zIC00OSAxNyAwIDI3IDExIDM3IDcwCjU4IDczIDI2IDE1MCAzMiAyMTUgMTd6IG0tMjAzIC0xNTQgYzEzIC0yMCA5IC02NCAtNyAtNzAgLTE4IC03IC02NiAxMCAtNzcKMjcgLTkgMTQgLTExIDYxIC0yIDY5IDggOSA3OCAtMTIgODYgLTI2eiBtMjk4IDUgYzAgLTM1IC0zMSAtNjEgLTczIC02MSAtMjgKMCAtMjkgMiAtMjMgMzIgOSA0NCAyMyA1OCA2MiA1OCAzMSAwIDM0IC0zIDM0IC0yOXoiLz4KPC9nPgo8L3N2Zz4K') } #L08969, #etymologyL08969 { background-image: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKIHdpZHRoPSI2Ny4wMDAwMDBwdCIgaGVpZ2h0PSI4Ni4wMDAwMDBwdCIgdmlld0JveD0iMCAwIDY3LjAwMDAwMCA4Ni4wMDAwMDAiCiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ij4KPG1ldGFkYXRhPgpDcmVhdGVkIGJ5IHBvdHJhY2UgMS4xNSwgd3JpdHRlbiBieSBQZXRlciBTZWxpbmdlciAyMDAxLTIwMTcKPC9tZXRhZGF0YT4KPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsODYuMDAwMDAwKSBzY2FsZSgwLjEwMDAwMCwtMC4xMDAwMDApIgpmaWxsPSIjMDAwMDAwIiBzdHJva2U9Im5vbmUiPgo8cGF0aCBkPSJNNDEwIDY1NSBjLTEwIC0xMiAtMTAgLTIxIDEgLTQ3IDEyIC0zMCAxMSAtMzIgLTIzIC02MiAtNDYgLTQwIC01OAotNjQgLTU4IC0xMTggMCAtNTEgMTkgLTkxIDQ0IC05NiAxNiAtMyAxOCAwIDEyIDI1IC00IDE1IC0xMCA0NCAtMTMgNjMgLTUgMzQKLTQgMzQgMTMgMTcgMTYgLTE1IDE5IC0zMyAxOSAtMTE1IDAgLTc2IDQgLTEwMiAxOCAtMTIyIDkgLTEzIDE3IC0zMyAxNyAtNDMKMCAtMjIgMzQgLTczIDcwIC0xMDQgNjIgLTU1IDY4IC0zIDkgNjkgLTQyIDQ5IC00MiA0OSAtMjIgODYgMTIgMjAgMjQgNTYgMjgKNzkgNSAzMiAxMiA0MyAzMCA0NyAxMiAzIDM3IDIyIDU0IDQxIDM4IDQ0IDQxIDkyIDggMTUwIC0xOCAzMSAtMzIgNDIgLTcwIDU0Ci0zNSAxMSAtNDkgMjEgLTUzIDM4IC00IDEzIC0xOSAzMCAtMzUgMzggLTM0IDE4IC0zNCAxOCAtNDkgMHogbTEyMyAtMTE2IGMyMAotNSAzOCAtMTQgMzkgLTE5IDAgLTYgMSAtMTUgMiAtMjAgMSAtNiAtMTUgLTE4IC0zNCAtMjggLTM0IC0xNyAtMzUgLTE4IC00NwotMTE0IC02IC01NCAtMTUgLTEwMyAtMTkgLTExMCAtMTMgLTIwIC0yMyAyMiAtMjQgMTAyIC0xIDc4IC05IDk4IC00NyAxMTkKLTEzIDYgLTIzIDE2IC0yMyAyMSAwIDE2IDM4IDQ0IDY4IDUxIDQxIDEwIDQ0IDEwIDg1IC0yeiBtMzggLTE1MiBjLTI2IC0yNgotMzUgLTE3IC0yNyAyNyA0IDIxIDEzIDM2IDI0IDM4IDI2IDUgMjggLTQwIDMgLTY1eiIvPgo8cGF0aCBkPSJNMTM0IDU4NSBjNiAtMzIgNSAtMzUgLTM0IC01NSAtNzMgLTM3IC0xMDYgLTEzNCAtNjAgLTE3NSAyNiAtMjQgNDQKLTkgMzIgMjYgLTEyIDMyIC0zIDU4IDM0IDEwMyAzMCAzNiAzNCAzNyA3NiAzMSAzNCAtNSA0NyAtMTMgNjEgLTM3IDIzIC00MQoyMiAtNTcgLTEwIC05MCAtMTkgLTIwIC0yNCAtMzEgLTE2IC0zOSAyNSAtMjUgODMgNDAgODMgOTEgMCAzNCAtMjggNzkgLTYxCjk1IC0xNyA5IC00MCAzMiAtNTEgNTEgLTEyIDIxIC0yOCAzNCAtNDAgMzQgLTE4IDAgLTE5IC00IC0xNCAtMzV6Ii8+CjxwYXRoIGQ9Ik0xNDcgNDgzIGMtMyAtNSAtNSAtMzQgLTQgLTY0IDIgLTQ4IC0zIC02MiAtMzkgLTEyMSAtNTIgLTgyIC02MgotMTIyIC0zOCAtMTQ5IDI2IC0yOCA1OSAtMjMgMTAzIDE2IDIxIDE5IDQxIDM1IDQ1IDM1IDQgMCAxMiAtMTMgMTcgLTMwIDExCi0yOSAzMiAtMzkgNDMgLTIxIDMgNSAtMSAyNSAtOSA0NSAtMTIgMjkgLTIxIDM2IC00MyAzNiAtMTUgMCAtNDAgLTkgLTU3IC0yMAotNjYgLTQzIC03NCAtOCAtMTggNzggNDYgNzEgNTYgMTQ0IDI2IDE4MSAtMTEgMTMgLTIzIDIwIC0yNiAxNHoiLz4KPC9nPgo8L3N2Zz4K') }             </style>
+        </div>
+        <div class="row mx-0 bg-info row-eq-height border-top border-purple" id="E05496">
+            <div class="col-md-3  col-sm-4 p-0">
+                <div class="p-1">
+                    <p><span class="label label-success">E05496 &#x2726E;2726E &#x2192; &#x86C7;86C7</span></p>
+                    <p><b>Traditional in your browser 繁体字的浏览器显示:</b> <span class="text-lg">&#x2726E;</span></p>
+                    <p><b>Traditional in Unicode standard 繁体字的Unicode标准:</b> <a href="https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=2726E" target="_blank">U+2726E</a> <img src="https://www.unicode.org/cgi-bin/refglyph?24-2726E" /></p>
+                    <p>
+                        <b>Older traditional characters 旧繁体字/异体字:</b>
+Not exist                    </p>
+                    <p>
+                        <b>Simplified in your browser 简体字的浏览器显示:</b>
+                            <span class="text-lg">&#x86C7;</span>
+                    </p>
+                    <p>
+                        <b>Simplified in Unicode standard 简体字的Unicode标准:</b>
+                            <a href="https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=86C7" target="_blank">U+86C7</a>
+                            <img src="https://www.unicode.org/cgi-bin/refglyph?24-86C7" />
+                    </p>
+                    <p><b>Main pronunciation 主要发音:</b> sh&#xE9;</p>
+                    <p><b>Other pronunciations 其它发音:</b> Not exists.</p>
+                    <p><b>Original meaning 本义:</b> Meaning snake.</p>
+                    <p><b>English senses 英语理解:</b> </p>
+                    <p><b>Usage example 用法举例:</b> </p>
+                    <p><b>Importance by frequency 常用频率:</b> </p>
+                    <p><b>Shuowen 说文解字:</b> </p>
+                    <p class="pre-inline"><b>Character decomposition 字形分解 <a href="https://dixin.github.io/Etymology/decomposition-of-chinese-character" target="_blank" title="Help: Decomposition of Chinese character">[?]</a>:</b> <br />Compound &#x2726E;&#xD;&#xA;from insect &#x866B; ch&#xF3;ng and &#xD;&#xA;snake-ethnic-group &#x340C; s&#xEC;&#xD;&#xA;(variants &#x86C7;&#x8675;&#x2726E;&#x25740;)&#xD;&#xA;C519 &#x86C7;&lt;&#x8675;&gt; simp &#x86C7;.</p>
+                    <p class="pre-inline"><b>Decomposition notes 字形分解说明 <a href="https://dixin.github.io/Etymology/decomposition-of-chinese-character" target="_blank" title="Help: Decomposition of Chinese character">[?]</a>:</b> <br />Not applicable.</p>
+                    <p><b>Simplification rule 简化规则 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> Not applicable.</p>
+                    <p class="pre-inline"><b>Simplification rule explained 简化规则说明 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> <br />Not applicable.</p>
+                    <p><b>Variant rule 异体规则 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank">[?]</a>:</b> C519 &#x86C7;&lt;&#x8675;&gt;</p>
+                    <p class="pre-inline"><b>Variant rule clarification 异体规则说明 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> <br />&#x86C7; (snake) TW&#xD;&#xA;&#x8675; &lt;snake&gt;</p>
+                    <p><b>Applied rules 应用规则 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> Not applicable.</p>
+                    <p><b>New font rule 新字形规则 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> Not applicable.</p>
+                    <a class="btn btn-warning btn-xs ladda-button" data-style="zoom-in" href="https://github.com/Dixin/Etymology/issues/new" target="_blank" title="Help: Simplification of Chinese character"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Report issue 报错/留言</a>
+                </div>
+            </div>
+            <div class="col-md-9 col-sm-8 etymology-result bg-primary p-1" id="etymologyCharacters">
+                <h3><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Oracle characters 甲骨文 (0)</h3>
+                    <p>There is no known oracle characters found. 没有已知的甲骨文.</p>
+                <hr />
+                <h3><span class="glyphicon glyphicon-modal-window" aria-hidden="true"></span> Bronze characters 金文 (0)</h3>
+                    <p>There is no known bronze characters found. 没有已知的金文.</p>
+                <hr />
+                <h3><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Seal characters 说文解字的篆字 (0)</h3>
+                    <p>There is no known seal characters found. 没有已知的说文解字的篆字.</p>
+                <hr />
+                <h3><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Liushutong characters 六书通的字 (0)</h3>
+                    <p>There is no known Liushutong characters found. 没有已知的六书通的字.</p>
+            </div>
+            <style type="text/css">
+            </style>
+        </div>
+        <div class="row mx-0 bg-info row-eq-height border-top border-purple" id="E05498">
+            <div class="col-md-3  col-sm-4 p-0">
+                <div class="p-1">
+                    <p><span class="label label-success">E05498 &#x25740;25740 &#x2192; &#x86C7;86C7</span></p>
+                    <p><b>Traditional in your browser 繁体字的浏览器显示:</b> <span class="text-lg">&#x25740;</span></p>
+                    <p><b>Traditional in Unicode standard 繁体字的Unicode标准:</b> <a href="https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=25740" target="_blank">U+25740</a> <img src="https://www.unicode.org/cgi-bin/refglyph?24-25740" /></p>
+                    <p>
+                        <b>Older traditional characters 旧繁体字/异体字:</b>
+Not exist                    </p>
+                    <p>
+                        <b>Simplified in your browser 简体字的浏览器显示:</b>
+                            <span class="text-lg">&#x86C7;</span>
+                    </p>
+                    <p>
+                        <b>Simplified in Unicode standard 简体字的Unicode标准:</b>
+                            <a href="https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=86C7" target="_blank">U+86C7</a>
+                            <img src="https://www.unicode.org/cgi-bin/refglyph?24-86C7" />
+                    </p>
+                    <p><b>Main pronunciation 主要发音:</b> sh&#xE9;</p>
+                    <p><b>Other pronunciations 其它发音:</b> Not exists.</p>
+                    <p><b>Original meaning 本义:</b> Meaning snake.</p>
+                    <p><b>English senses 英语理解:</b> </p>
+                    <p><b>Usage example 用法举例:</b> </p>
+                    <p><b>Importance by frequency 常用频率:</b> </p>
+                    <p><b>Shuowen 说文解字:</b> </p>
+                    <p class="pre-inline"><b>Character decomposition 字形分解 <a href="https://dixin.github.io/Etymology/decomposition-of-chinese-character" target="_blank" title="Help: Decomposition of Chinese character">[?]</a>:</b> <br />Compound &#x25740;&#xD;&#xA;from snake-person-Yu &#x79B9; y&#x1D4; and &#xD;&#xA;snake &#x4E5F; y&#x11B;&#xD;&#xA;(variants &#x86C7;&#x8675;&#x2726E;&#x25740;)&#xD;&#xA;C519 &#x86C7;&lt;&#x8675;&gt; simp &#x86C7;.</p>
+                    <p class="pre-inline"><b>Decomposition notes 字形分解说明 <a href="https://dixin.github.io/Etymology/decomposition-of-chinese-character" target="_blank" title="Help: Decomposition of Chinese character">[?]</a>:</b> <br />Not applicable.</p>
+                    <p><b>Simplification rule 简化规则 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> Not applicable.</p>
+                    <p class="pre-inline"><b>Simplification rule explained 简化规则说明 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> <br />Not applicable.</p>
+                    <p><b>Variant rule 异体规则 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank">[?]</a>:</b> C519 &#x86C7;&lt;&#x8675;&gt;</p>
+                    <p class="pre-inline"><b>Variant rule clarification 异体规则说明 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> <br />&#x86C7; (snake) TW&#xD;&#xA;&#x8675; &lt;snake&gt;</p>
+                    <p><b>Applied rules 应用规则 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> Not applicable.</p>
+                    <p><b>New font rule 新字形规则 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> Not applicable.</p>
+                    <a class="btn btn-warning btn-xs ladda-button" data-style="zoom-in" href="https://github.com/Dixin/Etymology/issues/new" target="_blank" title="Help: Simplification of Chinese character"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Report issue 报错/留言</a>
+                </div>
+            </div>
+            <div class="col-md-9 col-sm-8 etymology-result bg-primary p-1" id="etymologyCharacters">
+                <h3><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Oracle characters 甲骨文 (0)</h3>
+                    <p>There is no known oracle characters found. 没有已知的甲骨文.</p>
+                <hr />
+                <h3><span class="glyphicon glyphicon-modal-window" aria-hidden="true"></span> Bronze characters 金文 (0)</h3>
+                    <p>There is no known bronze characters found. 没有已知的金文.</p>
+                <hr />
+                <h3><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Seal characters 说文解字的篆字 (0)</h3>
+                    <p>There is no known seal characters found. 没有已知的说文解字的篆字.</p>
+                <hr />
+                <h3><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Liushutong characters 六书通的字 (0)</h3>
+                    <p>There is no known Liushutong characters found. 没有已知的六书通的字.</p>
+            </div>
+            <style type="text/css">
+            </style>
+        </div>
+        <div class="row mx-0 bg-info row-eq-height border-top border-purple" id="E07287">
+            <div class="col-md-3  col-sm-4 p-0">
+                <div class="p-1">
+                    <p><span class="label label-success">E07287 &#x8675;8675 &#x2192; &#x86C7;86C7</span></p>
+                    <p><b>Traditional in your browser 繁体字的浏览器显示:</b> <span class="text-lg">&#x8675;</span></p>
+                    <p><b>Traditional in Unicode standard 繁体字的Unicode标准:</b> <a href="https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=8675" target="_blank">U+8675</a> <img src="https://www.unicode.org/cgi-bin/refglyph?24-8675" /></p>
+                    <p>
+                        <b>Older traditional characters 旧繁体字/异体字:</b>
+Not exist                    </p>
+                    <p>
+                        <b>Simplified in your browser 简体字的浏览器显示:</b>
+                            <span class="text-lg">&#x86C7;</span>
+                    </p>
+                    <p>
+                        <b>Simplified in Unicode standard 简体字的Unicode标准:</b>
+                            <a href="https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=86C7" target="_blank">U+86C7</a>
+                            <img src="https://www.unicode.org/cgi-bin/refglyph?24-86C7" />
+                    </p>
+                    <p><b>Main pronunciation 主要发音:</b> sh&#xE9;</p>
+                    <p><b>Other pronunciations 其它发音:</b> Not exists.</p>
+                    <p><b>Original meaning 本义:</b> Meaning snake.</p>
+                    <p><b>English senses 英语理解:</b> </p>
+                    <p><b>Usage example 用法举例:</b> </p>
+                    <p><b>Importance by frequency 常用频率:</b> </p>
+                    <p><b>Shuowen 说文解字:</b> </p>
+                    <p class="pre-inline"><b>Character decomposition 字形分解 <a href="https://dixin.github.io/Etymology/decomposition-of-chinese-character" target="_blank" title="Help: Decomposition of Chinese character">[?]</a>:</b> <br />Compound &#x8675;&#xD;&#xA;from insect &#x866B; ch&#xF3;ng and &#xD;&#xA;snake &#x4E5F; y&#x11B;&#xD;&#xA;(variants &#x86C7;&#x8675;&#x2726E;&#x25740;)&#xD;&#xA;C519 &#x86C7;&lt;&#x8675;&gt; simp &#x86C7;.</p>
+                    <p class="pre-inline"><b>Decomposition notes 字形分解说明 <a href="https://dixin.github.io/Etymology/decomposition-of-chinese-character" target="_blank" title="Help: Decomposition of Chinese character">[?]</a>:</b> <br />Not applicable.</p>
+                    <p><b>Simplification rule 简化规则 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> Not applicable.</p>
+                    <p class="pre-inline"><b>Simplification rule explained 简化规则说明 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> <br />Not applicable.</p>
+                    <p><b>Variant rule 异体规则 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank">[?]</a>:</b> C519 &#x86C7;&lt;&#x8675;&gt;</p>
+                    <p class="pre-inline"><b>Variant rule clarification 异体规则说明 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> <br />&#x86C7; (snake) TW&#xD;&#xA;&#x8675; &lt;snake&gt;</p>
+                    <p><b>Applied rules 应用规则 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> Not applicable.</p>
+                    <p><b>New font rule 新字形规则 <a href="https://dixin.github.io/Etymology/simplification-of-chinese-character" target="_blank" title="Help: Simplification of Chinese character">[?]</a>:</b> Not applicable.</p>
+                    <a class="btn btn-warning btn-xs ladda-button" data-style="zoom-in" href="https://github.com/Dixin/Etymology/issues/new" target="_blank" title="Help: Simplification of Chinese character"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Report issue 报错/留言</a>
+                </div>
+            </div>
+            <div class="col-md-9 col-sm-8 etymology-result bg-primary p-1" id="etymologyCharacters">
+                <h3><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Oracle characters 甲骨文 (0)</h3>
+                    <p>There is no known oracle characters found. 没有已知的甲骨文.</p>
+                <hr />
+                <h3><span class="glyphicon glyphicon-modal-window" aria-hidden="true"></span> Bronze characters 金文 (0)</h3>
+                    <p>There is no known bronze characters found. 没有已知的金文.</p>
+                <hr />
+                <h3><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Seal characters 说文解字的篆字 (0)</h3>
+                    <p>There is no known seal characters found. 没有已知的说文解字的篆字.</p>
+                <hr />
+                <h3><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Liushutong characters 六书通的字 (0)</h3>
+                    <p>There is no known Liushutong characters found. 没有已知的六书通的字.</p>
+            </div>
+            <style type="text/css">
+            </style>
+        </div>
+</div>
